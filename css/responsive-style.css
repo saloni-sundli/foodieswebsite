@@ -2,6 +2,7 @@
 
     /* about section */
 
+
 }
 
 @media (max-width: 991px){
@@ -27,7 +28,7 @@
 
 
     /* banner designn */
-    top-banner{
+    .top-banner{
         padding: 9.357rem 0 9.375rem;
     }
 
@@ -48,9 +49,13 @@
     }
 
     /* top banner */
-    top-banner{
+    .top-banner{
         padding: 10.875rem 9.375rem;
     }
 
     /* story section */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
 }
