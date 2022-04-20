@@ -33,6 +33,9 @@
     }
 
     /* carousal design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
 
 }
 
@@ -57,5 +60,22 @@
     .story-section{
         height: auto;
         padding: 3rem 0;
+    }
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+
+    /* newsletter */
+
+    /* footer link */
+}
+
+@media (max-width: 330px){
+    
+    /* Carousel design */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
     }
 }
