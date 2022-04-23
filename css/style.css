@@ -41,6 +41,7 @@ ol{
     --black-color: #000;
     --primary-font: font-family: 'Roboto', sans-serif;
     --secondary-font: font-family: 'Quicksand', sans-serif;
+
 }
 
 html{
@@ -411,7 +412,71 @@ p{
     color: var(--primary-color);
     font-size: 1.875rem;
     margin-right: 0.3125rem;
-}     
+}   
+
+.book-food{
+    width: 100%;
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.375rem 0;
+}
+
+/*
+=============================
+        Form Control
+=============================
+*/
+.newsletter{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{   
+    border-color: var(--primary-color);
+}
+
+
+/*
+==================================
+  Footer Section Design
+==================================
+*/
+.footer{
+    background-color: var(--primary-color);
+}  
+
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+}
+
+.footer .footer-link:hover{
+    color: var(--white-color) !important;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+
+
+
+
+
 
 
 

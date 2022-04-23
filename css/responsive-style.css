@@ -68,8 +68,19 @@
     }
 
     /* newsletter */
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
 
     /* footer link */
+    .footer .footer-link:hover,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
 }
 
 @media (max-width: 330px){
